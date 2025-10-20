@@ -2,11 +2,31 @@
   <header class="oxford-header">
     <div class="container-gutter">
       <div class="oxford-bar">
-        <a href="#" class="oxford-brand" aria-label="Georgia Tech home">
-          <img :src="gtLogo" alt="Georgia Tech" class="oxford-logo" />
+        <a href="#" class="oxford-brand" aria-label="University of Oxford home">
+          <span class="oxford-crest" aria-hidden="true">
+            <svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" role="presentation">
+              <rect width="56" height="56" rx="14" fill="#091C56" />
+              <circle cx="28" cy="28" r="18" fill="none" stroke="#F3EBC7" stroke-width="2.5" />
+              <path
+                d="M18.5 28c4.5-4 14.8-4 19.3 0"
+                fill="none"
+                stroke="#F3EBC7"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+              <circle cx="21.8" cy="23.5" r="2.3" fill="#F3EBC7" />
+              <circle cx="34.2" cy="23.5" r="2.3" fill="#F3EBC7" />
+              <path
+                d="M26.5 35.5h3"
+                stroke="#F3EBC7"
+                stroke-width="2.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
           <span class="oxford-brand-text">
-            <span class="oxford-brand-title">Georgia Tech</span>
-            <span class="oxford-brand-subtitle">Georgia Institute of Technology</span>
+            <span class="oxford-brand-subtitle">UNIVERSITY OF</span>
+            <span class="oxford-brand-title">OXFORD</span>
           </span>
         </a>
 
@@ -67,8 +87,6 @@
 </template>
 
 <script setup>
-import gtLogo from '../assets/GeorgiaTech_RGB.svg'
-
 const primaryLinks = ['About', 'Research', 'Admissions', 'News']
 const secondaryLinks = ['Community', 'Colleges', 'Department']
 </script>
@@ -78,9 +96,10 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
   position: sticky;
   top: 0;
   z-index: 30;
-  background: transparent;
-  border-bottom: none;
-  box-shadow: none;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(12, 26, 65, 0.06);
+  box-shadow: 0 12px 32px -24px rgba(9, 28, 86, 0.45);
 }
 
 .oxford-bar {
@@ -95,36 +114,35 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
   align-items: center;
   gap: 1rem;
   text-decoration: none;
-  color: #003057;
+  color: #091c56;
 }
 
-.oxford-logo {
-  height: 3rem;
-  width: auto;
+.oxford-crest svg {
+  width: 3.1rem;
+  height: 3.1rem;
   flex-shrink: 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px -18px rgba(9, 28, 86, 0.5);
 }
 
 .oxford-brand-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.05;
-  letter-spacing: 0.04em;
-  text-transform: none;
-  color: #00254d;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .oxford-brand-subtitle {
-  font-size: 0.65rem;
+  font-size: 0.66rem;
   font-weight: 600;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(0, 37, 77, 0.72);
+  letter-spacing: 0.32em;
 }
 
 .oxford-brand-title {
-  font-size: 1.32rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.24em;
 }
 
 .oxford-center {
@@ -138,22 +156,23 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 .oxford-pill {
   display: flex;
   align-items: center;
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(0, 48, 87, 0.14);
-  border-radius: 20px;
-  padding: 0.35rem 0.45rem;
-  gap: 0.25rem;
+  background: #ffffff;
+  border: 1px solid rgba(9, 28, 86, 0.12);
+  border-radius: 999px;
+  padding: 0.35rem 0.35rem;
+  box-shadow: 0 18px 30px -28px rgba(9, 28, 86, 0.5);
+  gap: 0.15rem;
 }
 
 .oxford-pill-item {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.45rem 1.1rem;
-  border-radius: 14px;
+  padding: 0.45rem 1.15rem;
+  border-radius: 999px;
   font-size: 0.92rem;
   font-weight: 600;
-  color: #003057;
+  color: #091c56;
   letter-spacing: 0.02em;
   border: none;
   background: transparent;
@@ -164,12 +183,12 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 .oxford-pill-item svg {
   width: 0.85rem;
   height: 0.85rem;
-  color: rgba(0, 48, 87, 0.5);
+  color: rgba(9, 28, 86, 0.55);
 }
 
 .oxford-pill-item:hover {
-  background: rgba(0, 48, 87, 0.08);
-  box-shadow: inset 0 0 0 1px rgba(0, 48, 87, 0.08);
+  background: rgba(9, 28, 86, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(9, 28, 86, 0.04);
 }
 
 .oxford-pill--secondary {
@@ -179,10 +198,10 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 .oxford-search {
   display: inline-flex;
   align-items: center;
-  border-radius: 16px;
-  border: 1px solid rgba(0, 48, 87, 0.14);
-  background: rgba(249, 250, 252, 0.9);
-  padding: 0.25rem 0.25rem 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(9, 28, 86, 0.14);
+  background: #f9fafc;
+  padding: 0.25rem 0.25rem 0.25rem 0.75rem;
   margin-left: 0.35rem;
 }
 
@@ -192,12 +211,12 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
   outline: none;
   font-size: 0.88rem;
   font-weight: 500;
-  color: #003057;
+  color: #091c56;
   width: 7.5rem;
 }
 
 .oxford-search input::placeholder {
-  color: rgba(0, 48, 87, 0.48);
+  color: rgba(9, 28, 86, 0.48);
   letter-spacing: 0.04em;
 }
 
@@ -205,10 +224,10 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: 12px;
-  background: #b3a369;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: #091c56;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -216,7 +235,7 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 }
 
 .oxford-search button:hover {
-  background: #a6934d;
+  background: #0c2365;
 }
 
 .oxford-search svg {
@@ -226,20 +245,21 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 
 .oxford-login {
   border: none;
-  border-radius: 16px;
-  padding: 0.68rem 1.8rem;
-  font-size: 0.96rem;
+  border-radius: 999px;
+  padding: 0.7rem 1.9rem;
+  font-size: 0.98rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  background: #003057;
+  background: #091c56;
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0 20px 36px -28px rgba(9, 28, 86, 0.8);
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .oxford-login:hover {
-  background: #0a4a7c;
+  background: #0c2365;
   transform: translateY(-1px);
 }
 
@@ -284,11 +304,12 @@ const secondaryLinks = ['Community', 'Colleges', 'Department']
 
 @media (max-width: 640px) {
   .oxford-brand-title {
-    letter-spacing: 0.04em;
+    letter-spacing: 0.16em;
   }
 
-  .oxford-logo {
-    height: 2.6rem;
+  .oxford-crest svg {
+    width: 2.75rem;
+    height: 2.75rem;
   }
 }
 </style>
