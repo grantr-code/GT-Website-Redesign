@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global tweaks to better match the mock */
+html, body, #app {
+  height: 100%;
+}
+
+.hero-watermark {
+  @apply absolute inset-0 flex items-center justify-center pointer-events-none select-none; 
+}
+.hero-watermark span {
+  @apply text-white/20 font-extrabold tracking-tight; 
+  font-size: min(22vw, 18rem);
+  line-height: 1;
+}
+
+.container-gutter {
+  /* center content like Oxford site and control max width */
+  @apply px-4 sm:px-6 lg:px-8 mx-auto max-w-screen-2xl;
+}
+
+/* Subtle vertical guide lines like the Oxford site */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0; /* sits behind the content */
+  pointer-events: none;
+  /* 4 vertical columns creating 5 lines across viewport */
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0,
+    transparent calc(25% - 1px),
+    rgba(0, 0, 0, 0.06) calc(25% - 1px),
+    rgba(0, 0, 0, 0.06) 25%
+  );
+}
+
+/* Ensure main app content appears above the lines overlay */
+#app, header, section, footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Default typography tweaks for closer match */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: theme('colors.gt.navy');
+}
