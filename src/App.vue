@@ -5,6 +5,7 @@ import AboutSection from './components/AboutSection.vue'
 import FacilitiesSlideshow from './components/FacilitiesSlideshow.vue'
 import ProgramsSection from './components/ProgramsSection.vue'
 import WhyChooseSection from './components/WhyChooseSection.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -14,7 +15,8 @@ import WhyChooseSection from './components/WhyChooseSection.vue'
     <AboutSection />
     <FacilitiesSlideshow />
     <ProgramsSection />
-    <WhyChooseSection />
+    <!-- <WhyChooseSection /> -->
+    <Footer />
   </div>
 
 </template>
