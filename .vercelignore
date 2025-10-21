@@ -10,10 +10,10 @@ Primary Logos/
 *.md
 
 # Node modules (will be installed during build)
-gt-vue/node_modules/
+node_modules/
 
 # Build artifacts (will be generated during build)
-gt-vue/dist/
+dist/
 
 # OS files
 .DS_Store

@@ -1,8 +1,8 @@
 {
-  "buildCommand": "cd gt-vue && npm run build",
-  "outputDirectory": "gt-vue/dist",
-  "installCommand": "cd gt-vue && npm install",
-  "devCommand": "cd gt-vue && npm run dev",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "devCommand": "npm run dev",
   "rewrites": [
     {
       "source": "/(.*)",
