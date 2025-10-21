@@ -15,7 +15,7 @@
           </h2>
           <div class="col-span-1 lg:col-span-5">
             <img
-              src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=2000&auto=format&fit=crop"
+              src="/pictures/Seal_fall.JPG"
               alt="Academic architecture"
               class="w-full h-48 lg:h-56 object-cover rounded-2xl"
             />

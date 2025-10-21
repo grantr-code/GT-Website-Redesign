@@ -75,7 +75,7 @@ const slides = [
     watermark: 'Computing',
     facilityName: 'College of Computing',
     description: 'Leading computing infrastructure supporting cutting-edge research and innovation in computer science, data science, and computational media.',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop'
+    image: '/pictures/Facilites.JPG'
   },
   {
     title: 'Advanced Engineering Laboratories for Discovery',
@@ -89,21 +89,28 @@ const slides = [
     watermark: 'Campus',
     facilityName: 'Campus Facilities',
     description: 'Collaborative environments designed to foster innovation and interdisciplinary learning across seven colleges.',
-    image: 'https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2000&auto=format&fit=crop'
+    image: '/pictures/Modern_Learning.jpg'
+  },
+  {
+    title: 'Athletic and Wellness Facilities for Peak Performance',
+    watermark: 'Athletic',
+    facilityName: 'Athletic Facilities',
+    description: 'Premier athletic and wellness facilities supporting student-athletes and the entire campus community in achieving excellence.',
+    image: '/pictures/Athletic.jpg'
   },
   {
     title: 'Research Centers of Excellence',
     watermark: 'Research',
     facilityName: 'Research Facilities',
     description: 'Multiple specialized centers driving discoveries that improve the human condition with $1.47B in research funding.',
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2000&auto=format&fit=crop'
+    image: '/pictures/Science.jpg'
   },
   {
     title: 'Business and Innovation Hubs',
     watermark: 'Business',
     facilityName: 'Scheller College',
     description: 'Facilities supporting entrepreneurship, business education, and industry partnerships that transform tomorrow.',
-    image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2000&auto=format&fit=crop'
+    image: '/pictures/Scheller.jpg'
   }
 ]
 
