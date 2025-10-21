@@ -1,0 +1,19 @@
+# Exclude large files and source materials
+Videos/
+Primary Logos/
+
+# Development files
+.git/
+.vscode/
+.claude/
+*.log
+*.md
+
+# Node modules (will be installed during build)
+gt-vue/node_modules/
+
+# Build artifacts (will be generated during build)
+gt-vue/dist/
+
+# OS files
+.DS_Store
