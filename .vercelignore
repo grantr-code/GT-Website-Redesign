@@ -1,6 +1,6 @@
-# Exclude large files and source materials
-Videos/
-Primary Logos/
+# Exclude large files and source materials (but NOT public/videos!)
+/Videos/
+/Primary Logos/
 
 # Development files
 .git/
