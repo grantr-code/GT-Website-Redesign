@@ -45,11 +45,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- Large Watermark Text -->
-            <div class="watermark-text">
-              <span>{{ slide.watermark }}</span>
-            </div>
           </div>
         </div>
       </transition-group>
