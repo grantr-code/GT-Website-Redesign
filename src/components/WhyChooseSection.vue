@@ -5,7 +5,7 @@
       <div class="mb-16">
         <div class="text-white/60 uppercase tracking-widest text-xs md:text-sm mb-6">Why Choose us</div>
         <h2 class="text-[32px] sm:text-[44px] md:text-[56px] lg:text-[64px] leading-[1.15] font-semibold tracking-tight mb-12">
-          A Legacy of Excellence, a Future of Possibility
+          A Legacy of Innovation, A Future of Excellence
         </h2>
       </div>
 
@@ -116,27 +116,27 @@ const selectedBox = ref(2) // Default to box 03 (index 2) to match the image
 
 const boxes = [
   {
-    title: 'Top-Ranked Education',
-    description: 'Georgia Tech consistently ranks among the world\'s top universities, recognized for its academic excellence across engineering, computing, sciences, and business.',
-    backgroundText: 'From world-renowned academics to a one-of-a-kind collegiate experience, discover what sets Georgia Tech apart—and why it\'s the first choice for scholars, researchers, and leaders from around the globe.',
+    title: 'Fastest-Growing University',
+    description: 'Ranked #1 for growth over the past decade, Georgia Tech continues to expand its impact and excellence in technology, research, and innovation.',
+    backgroundText: 'Developing exceptional leaders who advance technology and improve the human condition—this is the core mission that drives everything we do at Georgia Tech.',
     icon: GraduationCapIcon
   },
   {
-    title: 'World-Class Faculty',
-    description: 'Students learn from world-renowned scholars and researchers at the forefront of their fields, including Nobel Laureates, policy advisors, and innovators shaping the future.',
-    backgroundText: 'Learn from the best minds in technology, engineering, and innovation. Our faculty members are pioneers in their fields, bringing cutting-edge research and real-world expertise into every classroom.',
+    title: 'Top-Ranked Research',
+    description: 'With $1.47 billion in sponsored research awards, we\'re at the forefront of innovation and discovery, tackling the world\'s most challenging problems.',
+    backgroundText: 'Our research enterprise spans cutting-edge labs and facilities across seven colleges, driving breakthroughs that transform industries and improve lives worldwide.',
     icon: BuildingIcon
   },
   {
-    title: 'Unique Collegiate System',
-    description: 'At Georgia Tech, you\'re not just part of a university—you belong to a vibrant community that provides personal academic support, close-knit communities, and lifelong connections.',
-    backgroundText: 'Experience a supportive community where collaboration thrives. Georgia Tech\'s unique approach combines academic rigor with personalized mentorship and a strong sense of belonging.',
+    title: '#9 Public University',
+    description: 'Consistently ranked among the nation\'s top public universities for academic excellence, innovation, and outcomes that prepare leaders for tomorrow.',
+    backgroundText: 'Excellence in education meets world-class research at Georgia Tech. Our commitment to innovation and leadership development sets us apart as a premier institution.',
     icon: DocumentIcon
   },
   {
-    title: 'Global Network & Impact',
-    description: 'Georgia Tech is home to students from over 100 countries and a vast international alumni network. Our influence reaches across continents and industries worldwide.',
-    backgroundText: 'Join a global community of innovators and leaders. With alumni in every corner of the world, Georgia Tech\'s network opens doors and creates opportunities that span the globe.',
+    title: 'Global Impact',
+    description: 'Developing leaders who advance technology and improve the human condition worldwide through groundbreaking research and transformative education.',
+    backgroundText: 'From Atlanta to the world, Georgia Tech\'s influence spans continents and industries, creating solutions and opportunities that shape the future of technology and society.',
     icon: GlobeIcon
   }
 ]

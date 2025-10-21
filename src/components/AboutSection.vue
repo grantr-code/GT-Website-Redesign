@@ -8,9 +8,9 @@
       <div class="col-span-12 md:col-span-9">
         <div class="text-gt-gray mb-3 text-base md:text-lg">About us</div>
         <h2 class="text-[28px] sm:text-[36px] md:text-[56px] leading-[1.15] font-semibold tracking-tight">
-          Our numbers reflect a tradition of excellence and
-          <span class="text-gt-navy">forward‑thinking</span> impact in education, research, and
-          innovation
+          Our numbers reflect a tradition of
+          <span class="text-gt-navy">innovation</span> and forward‑thinking impact in technology, research, and
+          education
         </h2>
       </div>
     </div>
@@ -93,38 +93,38 @@ import { ref } from 'vue'
 const statPairs = [
   [
     {
-      label: 'Students',
-      number: '45,000+',
-      description: 'Across undergraduate, graduate, and professional levels'
+      label: 'Fastest Growing',
+      number: '#1',
+      description: 'Fastest-Growing University Over the Past Decade'
     },
     {
-      label: 'Research Centers',
-      number: '100+',
-      description: 'World-leading Innovation Hubs'
+      label: 'Public University',
+      number: '#9',
+      description: 'Among the Nation\'s Top Public Universities'
     }
   ],
   [
     {
-      label: 'Public Universities',
-      number: 'Top 10',
-      description: 'Among U.S. Public Universities'
+      label: 'Research Funding',
+      number: '$1.47B',
+      description: 'In Sponsored Research Awards in FY25'
     },
     {
-      label: 'Research Expenditures',
-      number: '$2.5B+',
-      description: 'Annual Research Volume'
+      label: 'Colleges',
+      number: '7',
+      description: 'Colleges Offering Diverse Programs'
     }
   ],
   [
     {
-      label: 'Countries Represented',
-      number: '100+',
-      description: 'Global student and faculty community'
+      label: 'Global Reach',
+      number: 'Global',
+      description: 'Programs and partnerships across the world'
     },
     {
-      label: 'Alumni Network',
-      number: '200K+',
-      description: 'Georgia Tech graduates worldwide'
+      label: 'Innovation',
+      number: 'Leading',
+      description: 'In technology advancement and research'
     }
   ]
 ]

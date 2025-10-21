@@ -9,9 +9,9 @@
         <div class="text-gt-gray mb-3 text-base md:text-lg">About us</div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <h2 class="col-span-1 lg:col-span-7 text-[28px] sm:text-[36px] md:text-[56px] leading-[1.15] font-semibold tracking-tight">
-            A World-Class Range of
-            <span class="text-gt-gold">Academic Programs</span> for Every
-            Ambition and Passion
+            World-Class
+            <span class="text-gt-gold">Academic Programs</span> Across Seven
+            Colleges
           </h2>
           <div class="col-span-1 lg:col-span-5">
             <img
@@ -62,23 +62,23 @@ import { ref } from 'vue'
 const programs = ref([
   {
     number: '01',
-    title: 'Undergraduate',
-    description: "World-class bachelor's degrees with personalized tutorials and a rich academic environment across arts, sciences, and humanities."
+    title: 'College of Computing',
+    description: 'Leading programs in computer science, data science, and computational media with world-renowned faculty.'
   },
   {
     number: '02',
-    title: 'Graduate',
-    description: "Advanced master's and doctoral studies guided by leading researchers, designed to shape future leaders and experts."
+    title: 'College of Engineering',
+    description: 'Cutting-edge engineering programs across multiple disciplines with state-of-the-art facilities and research opportunities.'
   },
   {
     number: '03',
-    title: 'Continuing Education',
-    description: 'Flexible learning for professionals and adults, offering online and in-person programs to support lifelong development.'
+    title: 'College of Sciences',
+    description: 'Pure and applied sciences programs driving innovation and discovery in biology, chemistry, physics, mathematics, and more.'
   },
   {
     number: '04',
-    title: 'Short Courses',
-    description: 'Quick, focused learning across diverse topics—ideal for upskilling, exploring new interests, or experiencing Oxford in brief.'
+    title: 'Additional Colleges',
+    description: 'Scheller College of Business, Ivan Allen College of Liberal Arts, College of Design, and College of Lifetime Learning.'
   }
 ])
 </script>

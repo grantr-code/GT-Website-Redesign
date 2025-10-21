@@ -115,12 +115,12 @@ const sources = [
 ]
 
 const slideTexts = [
-  'Fully Funded Graduate Studentship For 2025-2026. Check our selection of studentship accepting applications now',
-  'Cutting-Edge Research Opportunities. Join world-renowned faculty in groundbreaking research across all disciplines',
-  'State-of-the-Art Campus Facilities. Explore our modern labs, innovation spaces, and collaborative learning environments',
-  'Vibrant Student Life. Experience a diverse community with 400+ student organizations and endless opportunities to connect',
-  'Leading Innovation Programs. Be part of our entrepreneurship ecosystem and turn your ideas into reality',
-  'Global Alumni Network. Join 145,000+ Yellow Jackets making an impact in every corner of the world'
+  'Developing exceptional leaders who advance technology and improve the human condition',
+  '#1 Fastest-Growing University Over the Past Decade - Join our community of innovators',
+  '$1.47 Billion in Sponsored Research Awards - Be part of groundbreaking discoveries',
+  '#9 Public University in the Nation - Excellence in education and research',
+  'Seven Colleges, Endless Possibilities - Computing, Engineering, Sciences, Business, Design, Liberal Arts, and Lifetime Learning',
+  'Transforming Tomorrow: The Campaign for Georgia Tech - Shape the future with us'
 ]
 
 // State

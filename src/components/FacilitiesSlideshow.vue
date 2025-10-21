@@ -71,38 +71,38 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 
 const slides = [
   {
-    title: 'Exceptional Facilities Designed to Support Learning, Research, and Discovery',
-    watermark: 'Library',
-    facilityName: 'Bodleian Libraries',
-    description: 'One of the largest and oldest research libraries in Europe, offering access to millions of resources.',
-    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2000&auto=format&fit=crop'
+    title: 'State-of-the-Art Computing Facilities Driving Innovation',
+    watermark: 'Computing',
+    facilityName: 'College of Computing',
+    description: 'Leading computing infrastructure supporting cutting-edge research and innovation in computer science, data science, and computational media.',
+    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop'
   },
   {
-    title: 'State-of-the-Art Research Laboratories for Innovation',
-    watermark: 'Research',
-    facilityName: 'Advanced Research Labs',
-    description: 'Cutting-edge laboratory spaces equipped with the latest technology for groundbreaking research.',
+    title: 'Advanced Engineering Laboratories for Discovery',
+    watermark: 'Engineering',
+    facilityName: 'College of Engineering',
+    description: 'World-class labs equipped for groundbreaking engineering research and education across multiple disciplines.',
     image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=2000&auto=format&fit=crop'
   },
   {
     title: 'Modern Learning Spaces Fostering Collaboration',
     watermark: 'Campus',
-    facilityName: 'Student Commons',
-    description: 'Collaborative spaces designed to enhance the student experience and promote interactive learning.',
+    facilityName: 'Campus Facilities',
+    description: 'Collaborative environments designed to foster innovation and interdisciplinary learning across seven colleges.',
     image: 'https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2000&auto=format&fit=crop'
   },
   {
-    title: 'Advanced Computing Centers Powering Discovery',
-    watermark: 'Technology',
-    facilityName: 'Computing Center',
-    description: 'High-performance computing facilities supporting complex simulations and data analysis.',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop'
+    title: 'Research Centers of Excellence',
+    watermark: 'Research',
+    facilityName: 'Research Facilities',
+    description: 'Multiple specialized centers driving discoveries that improve the human condition with $1.47B in research funding.',
+    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2000&auto=format&fit=crop'
   },
   {
-    title: 'Athletic and Wellness Facilities for Peak Performance',
-    watermark: 'Athletics',
-    facilityName: 'Recreation Center',
-    description: 'World-class athletic facilities promoting physical health and competitive excellence.',
+    title: 'Business and Innovation Hubs',
+    watermark: 'Business',
+    facilityName: 'Scheller College',
+    description: 'Facilities supporting entrepreneurship, business education, and industry partnerships that transform tomorrow.',
     image: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2000&auto=format&fit=crop'
   }
 ]

@@ -175,8 +175,8 @@
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
 
-const primaryLinks = ['About', 'Research', 'Admissions', 'News']
-const secondaryLinks = ['Community', 'Colleges', 'Department']
+const primaryLinks = ['About', 'Academics', 'Admissions', 'Campus Life']
+const secondaryLinks = ['Research', 'Athletics', 'Colleges']
 
 const isScrolled = ref(false)
 const mobileMenuOpen = ref(false)
